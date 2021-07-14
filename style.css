@@ -189,9 +189,13 @@ social-area-section-styles
     margin-top:20px;
 }
 
-/* mobile-devices */
+/*---------------
+ mobile-devices
+ ------------------ */
 @media only screen and (max-width:688px) {
-    /* header-part */
+    /*-----------------
+     header-part
+     ------------------ */
     header{
         display: none;
     }
@@ -209,18 +213,26 @@ social-area-section-styles
         margin: 20px 30px;
         flex-direction: column;
     } 
-    /* players-part */
+    /*---------------
+     players-part
+     --------------- */
     .top-players{
         width: 100%;
         margin: 0 ;
         padding: 0;
     }
+    
     .players{
         width: 100%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
-}
-/* mid-banner */
+    }
+    .player{
+        padding: 35px;
+    }
+/*----------------
+ mid-banner
+ ---------------- */
     .mid-banner{
         margin-top: 60px;
     }
@@ -237,7 +249,9 @@ social-area-section-styles
         width:328px ;
         height: 248px
     }
-    /* social-area-part */
+    /*-----------------
+     social-area-part
+     ---------------- */
     .ball-logo img{
         width: 90%;
     }
@@ -250,3 +264,9 @@ social-area-section-styles
     }
 
 }
+/*--------------------------
+ tablet-devices-responsive
+ ---------------------------*/
+ @media only screen and (min-width:688px)  and (max-width:992px) {
+
+ }
